@@ -154,6 +154,7 @@ int main(void) {
 	for (int i = 0; i < 15; i++)
 		v.dequeue();
 	v.display();
+
 	cout << "요소의 개수: " << v.getSize() << endl;
 	(v.isEmpty()) ? cout << "큐가 비었습니다." << endl : cout << "큐가 안비었습니다." << endl;
 
